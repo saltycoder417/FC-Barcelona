@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #004D98;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 120%;
+}
+table, th, td {
+    border: 2px solid whitesmoke; 
+    border-collapse:collapse;
+    text-align: center;
+    margin: 1%;
+}
+#record {
+    background-color:#DB0030;
+}
+#middle {
+  background-color:black;
+  color: white;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;  
+}
+
+#top {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    color: black;
+}
+#navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+#bottom {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    color:black;
+}
+#oldsquad {
+    height:30%;
+    width: 30%;
+}
+#fans {
+    height:30%;
+    width: 30%;
+}
+#homekit {
+    height:30%;
+    width: 30%;
+}
+#awaykit {
+    height:30%;
+    width: 30%;
+}
+#thirdkit {
+    height:30%;
+    width: 30%;
+}
+#el {
+    height:30%;
+    width: 30%;
+}
+#trophylift {
+    height:30%;
+    width:30%;
+}
+a {
+    color:whitesmoke;
+    text-decoration:underline;
+}
+a:visited {
+    color:whitesmoke;
+}
+a:hover {
+    background-color: black;
+}
+.social:hover {
+    background-color: #004D98;
+}
+a:active {
+    background-color: #DB0030;
+}
+.social:active {
+    background-color: #DB0030;
+}
+.coloumn {
+  float: left;
+  width: 30%;
+  padding: 5px;
+  text-align: center;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.player:hover {
+    box-shadow: 4px -4px 32px 16px #004D98;
+}
+.positions {
+    text-align: center;
+}
